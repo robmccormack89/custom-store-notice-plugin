@@ -6,7 +6,7 @@ const replace = require('gulp-replace');
 const rename = require('gulp-rename');
 
 const config = {
-  "text_domain" : "direct-to-checkout",
+  "text_domain" : "custom-store-notice",
   "twig_files"  : "views/**/*.twig",
   "php_files"   : "{*.php,!(vendor|page-templates)/**/*.php}", // all php files in all folders incl. root except page-templates
   // "php_files"   : "**.php/*.php", // all php files in all folders incl. root
