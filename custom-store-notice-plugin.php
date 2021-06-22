@@ -2,7 +2,7 @@
 /*
 Plugin Name: Custom Store Notice
 Plugin URI: #
-Description: Adds a custom store notice to Woocommerce
+Description: Adds a modified woocommerce demo store notice
 Version: 1.0.0
 Author: robmccormack89
 Author URI: #
@@ -18,6 +18,10 @@ defined('ABSPATH') || exit;
 
 // define some constants
 if (!defined('CUSTOM_STORE_NOTICE_PATH')) define('CUSTOM_STORE_NOTICE_PATH', plugin_dir_path( __FILE__ ));
+if (!defined('CUSTOM_STORE_NOTICE_URL')) define('CUSTOM_STORE_NOTICE_URL', plugin_dir_url( __FILE__ ));
+
+// require action functions 
+require_once('inc/functions.php');
 
 // require the composer autoloader
 if (file_exists($composer_autoload = __DIR__.'/vendor/autoload.php')) require_once $composer_autoload;

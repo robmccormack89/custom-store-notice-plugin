@@ -1,8 +1,5 @@
 {
-  "require": {
-    "timber/timber": "^1.18.2"
-  },
   "autoload": {
-      "psr-4": { "Rmcc\\": ["inc/", "inc/classes/"] }
+      "psr-4": { "Rmcc\\": ["inc/classes/"] }
   }
 }
