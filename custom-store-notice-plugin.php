@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Custom Store Notice
+Plugin Name: Custom Store Notice for Woocommerce by RMcC
 Plugin URI: #
 Description: Adds a modified woocommerce demo store notice
 Version: 1.0.0
