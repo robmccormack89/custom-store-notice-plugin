@@ -13,7 +13,7 @@ function add_custom_demo_store_notice() {
 
   echo apply_filters(
     'woocommerce_demo_store', 
-    '<div class="woocommerce-store-notice demo_store uk-position-z-index"><div class="store-notice-wrap">'.wp_kses_post($notice).' <a href="#" class="woocommerce-store-notice__dismiss-link">' . esc_html_x('Dismiss', 'Store notice', 'custom-store-notice') . ' <i class="fas fa-times"></i></a></div></div>', 
+    '<div class="woocommerce-store-notice demo_store uk-position-z-index theme-border-top"><div class="store-notice-wrap">'.wp_kses_post($notice).' <a href="#" class="woocommerce-store-notice__dismiss-link">' . esc_html_x('Dismiss', 'Store notice', 'custom-store-notice') . ' <i class="fas fa-times"></i></a></div></div>', 
     $notice
   ); 
 }
