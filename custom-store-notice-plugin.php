@@ -19,12 +19,13 @@ defined('ABSPATH') || exit;
 // define some constants
 if (!defined('CUSTOM_STORE_NOTICE_PATH')) define('CUSTOM_STORE_NOTICE_PATH', plugin_dir_path( __FILE__ ));
 if (!defined('CUSTOM_STORE_NOTICE_URL')) define('CUSTOM_STORE_NOTICE_URL', plugin_dir_url( __FILE__ ));
-
-// require action functions 
-require_once('inc/functions.php');
+if (!defined('CUSTOM_STORE_NOTICE_BASE')) define('CUSTOM_STORE_NOTICE_BASE', dirname(plugin_basename( __FILE__ )));
 
 // require the composer autoloader
 if (file_exists($composer_autoload = __DIR__.'/vendor/autoload.php')) require_once $composer_autoload;
 
 // then require the main plugin class. this class extends Timber/Timber which is required via composer
 new Rmcc\CustomStoreNotice;
+
+// require action functions 
+require_once('inc/functions.php');
