@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Custom Store Notice for Woocommerce by RMcC
-Plugin URI: #
-Description: Adds a modified woocommerce demo store notice
+Plugin URI: https://github.com/robmccormack89/custom-store-notice-plugin
+Description: Repositions & styles the default Woocommerce demo store notice, which is available in the customizer settings. This plugin is translation-ready.
 Version: 1.0.0
 Author: robmccormack89
-Author URI: #
+Author URI: https://github.com/robmccormack89
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
