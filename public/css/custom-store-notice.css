@@ -5,6 +5,7 @@
   width: 100%;
   bottom: 0;
   margin-top: 100px;
+  z-index: 999!important;
 }
 .store-notice-wrap {
   padding: 10px;
