@@ -9,11 +9,11 @@ function add_custom_demo_store_notice() {
   
   $notice = get_option('woocommerce_demo_store_notice'); 
   
-  if (empty($notice)) $notice = _x( 'This is a demo store for testing purposes — no orders shall be fulfilled.', 'Store notice', 'custom-store-notice' ); 
+  if (empty($notice)) $notice = _x( 'This is a demo store for testing purposes — no orders shall be fulfilled.', 'Message', 'custom-store-notice' ); 
 
   echo apply_filters(
     'woocommerce_demo_store', 
-    '<div class="woocommerce-store-notice demo_store uk-position-z-index theme-border-top"><div class="store-notice-wrap">'.wp_kses_post($notice).' <a href="#" class="woocommerce-store-notice__dismiss-link">' . esc_html_x('Dismiss', 'Store notice', 'custom-store-notice') . ' <i class="fas fa-times"></i></a></div></div>', 
+    '<div class="woocommerce-store-notice demo_store"><div class="store-notice-wrap">'.wp_kses_post($notice).' <a href="#" class="woocommerce-store-notice__dismiss-link">' . esc_html_x('Dismiss', 'Dismiss', 'custom-store-notice') . '</a></div></div>', 
     $notice
   ); 
 }

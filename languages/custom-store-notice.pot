@@ -1,4 +1,4 @@
-# Copyright (C) 2021 custom-store-notice
+# Copyright (C) 2023 custom-store-notice
 # This file is distributed under the same license as the custom-store-notice package.
 msgid ""
 msgstr ""
@@ -13,12 +13,12 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: inc/functions.php:11
-msgctxt "Store notice"
+#: inc/functions.php:12
+msgctxt "Message"
 msgid "This is a demo store for testing purposes — no orders shall be fulfilled."
 msgstr ""
 
-#: inc/functions.php:15
-msgctxt "Store notice"
+#: inc/functions.php:16
+msgctxt "Dismiss"
 msgid "Dismiss"
 msgstr ""

@@ -1,13 +1,16 @@
 .woocommerce-store-notice {
-  text-align: center;
-  background-color: #fff;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  margin-top: 100px;
+  text-align: center!important;
+  background-color: #f1f1f1!important;
+  width: -webkit-fill-available!important;
+  color: #000!important;
+  position: fixed!important;
+  border: none!important;
+  padding: 1rem!important;
+  margin: 0!important;
+  bottom: 0!important;
   z-index: 999!important;
 }
-.store-notice-wrap {
-  padding: 10px;
-  border-bottom: 1px solid #e5e5e5;
+.woocommerce-store-notice .woocommerce-store-notice__dismiss-link {
+  float: none!important;
+  margin-right: 0!important;
 }

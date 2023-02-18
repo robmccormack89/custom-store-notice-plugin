@@ -6,10 +6,8 @@ class CustomStoreNotice {
   public function __construct() {
     add_action('plugins_loaded', array($this, 'plugin_text_domain_init'));    
     add_action('wp_enqueue_scripts', array($this, 'plugin_enqueue_assets'));
-    
     add_action('plugins_loaded', array($this, 'remove_default_demo_store_notice'));
-    
-    add_action('rmcc_before_header', 'add_custom_demo_store_notice', 10);
+    add_action('wp_footer', 'add_custom_demo_store_notice');
   }
   
   public function remove_default_demo_store_notice() {
